@@ -7,9 +7,9 @@
 
 <h1>Stop half-done API specifications</h1>
 
-[![Maintained by blst security](https://img.shields.io/badge/maintained%20by-blst%20security-4F46E5)](https://www.blstsecurity.com/?promo=blst&domain=github_maintained_shield)
+[![Maintained by blst security](https://img.shields.io/badge/maintained%20by-blst%20security-4F46E5)]()
 
-[![docs](https://img.shields.io/badge/docs-passing-brightgreen)](https://www.blstsecurity.com/cherrybomb?promo=blst&domain=github_docs_shield)
+[![docs](https://img.shields.io/badge/docs-passing-brightgreen)]()
 
 [![Discord Shield](https://discordapp.com/api/guilds/914846937327497307/widget.png?style=shield)](https://discord.gg/WdHhv4DqwU)
 
@@ -41,8 +41,7 @@ Cherrybomb makes sure your API is working correctly. It checks your API's spec f
 
 ```
 
-curl https://cherrybomb.blstsecurity.com/install | /bin/bash
-
+DEPRECATED FOR NOW
 ```
 
 The script requires sudo permissions to move the cherrybomb bin into <b>/usr/local/bin/</b>.</br>
@@ -50,7 +49,7 @@ The script requires sudo permissions to move the cherrybomb bin into <b>/usr/loc
 (If you want to view the shell script(or even help to improving it - [/scripts/install.sh](/scripts/install.sh))
 
  ##### Containerized version
- You can get Cherrybomb through its containerized version which is hosted on AWS ECR, and requires an API key that you can get on that address(the loading is a bit slow) - [https://cicd.blstsecurity.com/](https://cicd.blstsecurity.com/)
+ You can get Cherrybomb through its containerized version which is hosted on AWS ECR, and requires an API key that you can get on that address(the loading is a bit slow) - DEPRECATED FOR NOW
 
 ```
 docker run --mount type=bind,source=[PATH TO OAS],destination=/home public.ecr.aws/blst-security/cherrybomb:latest cherrybomb -f /home/[OAS NAME] --api-key=[API-KEY]
@@ -191,9 +190,9 @@ Endpoint table output:
 
 # 🍻 Integration
 
-  
+DEPRECATED FOR NOW - WILL BE REPLACED SOON
 
-You can embed it into your CI pipeline, and If you plan on doing that I would recommend that you go to our [website](https://www.blstsecurity.com/?promo=blst&domain=github_integration_link), sign up, go through the [CI pipeline integration wizard](https://www.blstsecurity.com/Loading?redirect=/CICD&promo=blst&domain=github_wiz_integration), and copy the groovy/GitHub actions snippet built for you.
+You can embed it into your CI pipeline, and If you plan on doing that I would recommend that you go to our [website](), sign up, go through the [CI pipeline integration wizard](), and copy the groovy/GitHub actions snippet built for you.
 
 </br>Example:
 
@@ -205,11 +204,7 @@ You can embed it into your CI pipeline, and If you plan on doing that I would re
 
 ### Get help
 
-If you have any questions, please send us a message to [support@blstsecurity.com](mailto:support@blstsecurity.com) or ask us on our [discord server](https://discord.gg/WdHhv4DqwU).
+If you have any questions you can ask us on our [discord server](https://discord.gg/WdHhv4DqwU).
 
 
 You are also welcome to open an Issue here on GitHub.
-
-  
-
-
