@@ -134,8 +134,8 @@ Structure of config file:
 ```
 {
 "file" : "open-api.json",
-"verbosity" : "normal, 
-"profile" : " "Normal",
+"verbosity" : "Normal", 
+"profile" :   "Normal",
 "passive_include" : ["check1, checks2"],
 "active_include": ["check3, check4"],
 "servers_override" , ["http://server/"],
